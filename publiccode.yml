@@ -4,7 +4,7 @@
 
 publiccodeYmlVersion: '0.2'
 name: LibreOffice
-releaseDate: '2011-01-25'
+releaseDate: '2019-05-07'
 url: 'https://git.libreoffice.org/core'
 applicationSuite: LibreOffice
 isBasedOn: 'http://svn.services.openoffice.org/ooo/trunk'
@@ -26,6 +26,7 @@ categories:
   - document-management
   - financial-reporting
 logo: icons/logo.svg
+softwareVersion: 6.1.6
 maintenance:
   type: community
   contacts:
