@@ -1,17 +1,17 @@
-# This repository adheres to the publiccode.yml standard by including this
+# This repository adheres to the publiccode.yml standard by including this 
 # metadata file that makes public software easily discoverable.
 # More info at https://github.com/italia/publiccode.yml
 
 publiccodeYmlVersion: '0.2'
-name: LibreOffice
-releaseDate: '2019-05-07'
-url: 'https://git.libreoffice.org/core'
-applicationSuite: LibreOffice
+name: LibreOffice powered by CIB
+releaseDate: '2019-07-21'
+url: >-
+  https://gerrit.libreoffice.org/plugins/gitiles/core/+/refs/heads/distro/cib/libreoffice-6-1
+applicationSuite: LibreOffice powered by CIB
 isBasedOn: 'http://svn.services.openoffice.org/ooo/trunk'
-landingURL: 'https://www.libreoffice.org/'
+landingURL: 'https://libreoffice.cib.de/'
 developmentStatus: stable
 softwareType: standalone/desktop
-roadmap: 'https://wiki.documentfoundation.org/ReleasePlan'
 platforms:
   - windows
   - mac
@@ -25,16 +25,18 @@ categories:
   - collaboration
   - document-management
   - financial-reporting
-logo: icons/logo.svg
-softwareVersion: 6.1.6
+logo: imgs/LibreOfficePoweredByCIB.svg
+softwareVersion: 6.1.7.2-22
 maintenance:
-  type: community
+  type: internal
   contacts:
-    - name: LibreOffice development community
-      email: libreoffice@lists.freedesktop.org
+    - name: LibreOffice powered by CIB development team
+      email: libreoffice@cib.de
+      phone: +49 (0)89 143 60-111
+      affiliation: CIB software GmbH
 legal:
   license: LGPL-3.0-or-later AND MPL-2.0+
-  repoOwner: The Document Foundation
+  repoOwner: CIB software GmbH
 intendedAudience:
   scope:
     - culture
@@ -175,27 +177,12 @@ it:
     misureMinimeSicurezza: true
 description:
   en:
-    localisedName: LibreOffice
-    genericName: LibreOffice
-    shortDescription: LibreOffice is a powerful free and open source office suite
-    longDescription: >
-      LibreOffice is a powerful and free office suite, used by millions of 
-      people around the world. Its clean interface and feature-rich tools help 
-      you unleash your creativity and enhance your productivity. LibreOffice 
-      includes several applications that make it the most versatile Free and 
-      Open Source office suite on the market: Writer (word processing), Calc 
-      (spreadsheets), Impress (presentations), Draw (vector graphics and 
-      flowcharts), Base (databases), and Math (formula editing). 
-
-
-      LibreOffice is compatible with a wide range of document formats such as 
-      Microsoft® Word (.doc, .docx), Excel (.xls, .xlsx), PowerPoint (.ppt, 
-      .pptx) and Publisher. But LibreOffice goes much further with its native 
-      support for a modern and open standard, the Open Document Format (ODF). 
-      With LibreOffice, you have maximum control over your data and content – 
-      and you can export your work in many different formats including PDF. 
-    documentation: 'https://help.libreoffice.org'
-    apiDocumentation: 'https://api.libreoffice.org/'
+    localisedName: LibreOffice powered by CIB
+    genericName: LibreOffice powered by CIB
+    shortDescription: >-
+      LibreOffice powered by CIB is a complete desktop productivity solution for
+      companies and organizations of all sizes willing to deploy LibreOffice.
+    longDescription: " ** LibreOffice powered by CIB** product range is based on the following products: \n\n- **LibreOffice powered by CIB for Business**, providing  online support from a professional team, incremental updates and backport of security fixes for 18 months. The product is a business  optimized version of LibreOffice, focused on the basic deployments  issues of small and medium size organizations.\n- **LibreOffice powered by CIB LTS**  (Long Term Support), providing professional support from a team of  developers, incremental updates and backport of security fixes for 36  months. The product is focused on the needs of large organizations  deploying LibreOffice as the cornerstone of their desktop productivity,  which has to be integrated with third party applications and  personalized according to specific user or business requirements.\n\n** LibreOffice powered by CIB** product range is immediately available from CIB. For additional information:\_[libreoffice.cib.de](http://libreoffice.cib.de/). \n"
     features:
       - Text Documents
       - Spreadsheets
@@ -207,5 +194,6 @@ description:
       - Templates
       - Extensions
       - Macros
-    videos:
-      - 'https://youtu.be/3KC0ZdcA6s8'
+    screenshots:
+      - imgs/startcenter.png
+      - imgs/writer.png
