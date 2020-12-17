@@ -5,7 +5,7 @@
 publiccodeYmlVersion: '0.2'
 name: LibreOffice
 releaseDate: '2020-04-30'
-url: 'https://git.libreoffice.org/core'
+url: 'https://github.com/tdf/libreoffice-metadata'
 applicationSuite: LibreOffice
 isBasedOn: 'http://svn.services.openoffice.org/ooo/trunk'
 landingURL: 'https://www.libreoffice.org/'
