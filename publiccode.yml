@@ -4,7 +4,7 @@
 
 publiccodeYmlVersion: '0.2'
 name: LibreOffice
-releaseDate: '2022-03-03'
+releaseDate: '2022-03-11'
 url: 'https://github.com/tdf/libreoffice-metadata'
 applicationSuite: LibreOffice
 isBasedOn: 'http://svn.services.openoffice.org/ooo/trunk'
@@ -26,7 +26,7 @@ categories:
   - document-management
   - financial-reporting
 logo: icons/logo.svg
-softwareVersion: 7.3.1.3
+softwareVersion: 7.3.2.1
 maintenance:
   type: community
   contacts:
