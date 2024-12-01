@@ -14,7 +14,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: publiccode-softwareversion-check-action
-        uses: italia/publiccode-softwareversion-check-action@v1.2.0
+        uses: italia/publiccode-softwareversion-check-action@v1.2.1
         id: pva
         with:
           remoterepo: "https://git.libreoffice.org/core"
