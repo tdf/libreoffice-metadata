@@ -2,16 +2,15 @@
 # metadata file that makes public software easily discoverable.
 # More info at https://github.com/italia/publiccode.yml
 
-publiccodeYmlVersion: '0.2'
+publiccodeYmlVersion: 0.4.0
 name: LibreOffice
-releaseDate: '2025-09-18'
-url: 'https://github.com/tdf/libreoffice-metadata'
 applicationSuite: LibreOffice
-isBasedOn: 'http://svn.services.openoffice.org/ooo/trunk'
-landingURL: 'https://www.libreoffice.org/'
-developmentStatus: stable
-softwareType: standalone/desktop
-roadmap: 'https://wiki.documentfoundation.org/ReleasePlan'
+url: https://github.com/tdf/libreoffice-metadata
+landingURL: https://www.libreoffice.org/
+isBasedOn: http://svn.services.openoffice.org/ooo/trunk
+softwareVersion: 25.8.2.1
+releaseDate: 2025-09-18
+logo: icons/logo.svg
 platforms:
   - windows
   - mac
@@ -25,16 +24,9 @@ categories:
   - collaboration
   - document-management
   - financial-reporting
-logo: icons/logo.svg
-softwareVersion: 25.8.2.1
-maintenance:
-  type: community
-  contacts:
-    - name: LibreOffice development community
-      email: libreoffice@lists.freedesktop.org
-legal:
-  license: LGPL-3.0-or-later AND MPL-2.0+
-  repoOwner: The Document Foundation
+roadmap: https://wiki.documentfoundation.org/ReleasePlan
+developmentStatus: stable
+softwareType: standalone/desktop
 intendedAudience:
   scope:
     - culture
@@ -44,6 +36,50 @@ intendedAudience:
     - healthcare
     - local-authorities
     - justice
+description:
+  en:
+    localisedName: LibreOffice
+    shortDescription: LibreOffice is a powerful free and open source office suite
+    longDescription: >
+      LibreOffice is a powerful and free office suite, used by millions
+      of  people around the world. Its clean interface and feature-rich tools
+      help  you unleash your creativity and enhance your productivity.
+      LibreOffice  includes several applications that make it the most versatile
+      Free and  Open Source office suite on the market: Writer (word
+      processing), Calc  (spreadsheets), Impress (presentations), Draw (vector
+      graphics and  flowcharts), Base (databases), and Math (formula editing).
+
+
+      LibreOffice is compatible with a wide range of document formats such
+      as  Microsoft® Word (.doc, .docx), Excel (.xls, .xlsx), PowerPoint
+      (.ppt,  .pptx) and Publisher. But LibreOffice goes much further with its
+      native  support for a modern and open standard, the Open Document Format
+      (ODF).  With LibreOffice, you have maximum control over your data and
+      content –  and you can export your work in many different formats
+      including PDF.
+    documentation: https://help.libreoffice.org
+    apiDocumentation: https://api.libreoffice.org/
+    features:
+      - Text Documents
+      - Spreadsheets
+      - Presentations
+      - Drawings
+      - Databases
+      - Formula Editor
+      - Charts
+      - Templates
+      - Extensions
+      - Macros
+    videos:
+      - https://youtu.be/3KC0ZdcA6s8
+legal:
+  license: LGPL-3.0-or-later AND MPL-2.0+
+  repoOwner: The Document Foundation
+maintenance:
+  type: community
+  contacts:
+    - name: LibreOffice development community
+      email: libreoffice@lists.freedesktop.org
 localisation:
   localisationReady: true
   availableLanguages:
@@ -168,44 +204,8 @@ localisation:
     - zh-CN
     - zh-TW
 it:
-  countryExtensionVersion: '0.2'
+  countryExtensionVersion: "0.2"
   conforme:
     modelloInteroperabilita: true
-    gdpr: true
     misureMinimeSicurezza: true
-description:
-  en:
-    localisedName: LibreOffice
-    genericName: LibreOffice
-    shortDescription: LibreOffice is a powerful free and open source office suite
-    longDescription: >
-      LibreOffice is a powerful and free office suite, used by millions of 
-      people around the world. Its clean interface and feature-rich tools help 
-      you unleash your creativity and enhance your productivity. LibreOffice 
-      includes several applications that make it the most versatile Free and 
-      Open Source office suite on the market: Writer (word processing), Calc 
-      (spreadsheets), Impress (presentations), Draw (vector graphics and 
-      flowcharts), Base (databases), and Math (formula editing). 
-
-
-      LibreOffice is compatible with a wide range of document formats such as 
-      Microsoft® Word (.doc, .docx), Excel (.xls, .xlsx), PowerPoint (.ppt, 
-      .pptx) and Publisher. But LibreOffice goes much further with its native 
-      support for a modern and open standard, the Open Document Format (ODF). 
-      With LibreOffice, you have maximum control over your data and content – 
-      and you can export your work in many different formats including PDF. 
-    documentation: 'https://help.libreoffice.org'
-    apiDocumentation: 'https://api.libreoffice.org/'
-    features:
-      - Text Documents
-      - Spreadsheets
-      - Presentations
-      - Drawings
-      - Databases
-      - Formula Editor
-      - Charts
-      - Templates
-      - Extensions
-      - Macros
-    videos:
-      - 'https://youtu.be/3KC0ZdcA6s8'
+    gdpr: true
