@@ -1,0 +1,14 @@
+on: [pull_request]
+
+jobs:
+  publiccode_yml_validation:
+    runs-on: ubuntu-latest
+    name: publiccode.yml validation
+    steps:
+    - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 #v5.0.0
+    - uses: italia/publiccode-parser-action@360aac457ebcdee729754996a1816df662879cb0 #v4.3.6
+      with:
+        publiccode: 'publiccode.yml'
+        comment-on-pr: true
+      env:
+        REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
