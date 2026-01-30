@@ -8,8 +8,8 @@ applicationSuite: LibreOffice
 url: https://github.com/tdf/libreoffice-metadata
 landingURL: https://www.libreoffice.org/
 isBasedOn: http://svn.services.openoffice.org/ooo/trunk
-softwareVersion: 26.2.0.2
-releaseDate: '2026-01-16'
+softwareVersion: 26.2.0.3
+releaseDate: '2026-01-30'
 logo: icons/logo.svg
 platforms:
   - windows
